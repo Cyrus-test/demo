@@ -7,3 +7,7 @@ gl_list = [6, 2, 9]
 # 如果需要降序排序，需要指定reverse 参数
 gl_list.sort(reverse=True)
 print(gl_list)
+
+
+
+
