@@ -10,11 +10,11 @@ class Cat:
 tom = Cat()
 tom.drink()
 tom.eat()
-
 print(tom)
+# 再创建一个猫对象
 
-addr = id(tom)
-# %d 是打印10进制的操作符
-# %x 是打印16进制的操作符
-print("%x" % addr)
+lazy_cat = Cat()
 
+lazy_cat.eat()
+lazy_cat.drink()
+print(lazy_cat)
