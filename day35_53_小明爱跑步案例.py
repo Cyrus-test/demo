@@ -20,3 +20,4 @@ xiaoming.run()
 xiaoming.eat()
 
 print(xiaoming)
+
