@@ -28,7 +28,7 @@ class Soldier:
 
     def fir(self):
         # 1.判断一下士兵是否有枪
-        if self.gun == None:
+        if self.gun is None:
             print("[%s] 还没有枪。。。" % self.name)
             return
 
@@ -50,6 +50,6 @@ ak47 = Gun("AK47")
 
 xusando = Soldier("许三多")
 
-xusando.gun = ak47
+# xusando.gun = ak47
 xusando.fir()
 print(xusando.gun)
